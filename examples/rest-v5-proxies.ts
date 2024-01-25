@@ -2,9 +2,8 @@ import { RestClientV5 } from '../src/index';
 
 // or
 // import { RestClientV5 } from 'bybit-api';
-
-const key = process.env.API_KEY_COM;
-const secret = process.env.API_SECRET_COM;
+const key = "1K1DGfEqJg5nMZnrau";
+const secret = "iskpN4znl3s7BzfPcqkWhIniHfacDvkDGPbl";
 
 const client = new RestClientV5(
   {
@@ -34,32 +33,33 @@ const client = new RestClientV5(
 
     console.log('response: ', JSON.stringify(res, null, 2));
 
-    // const orders = await client.batchSubmitOrders('linear', [
-    //   {
-    //     symbol: 'ETHUSDT',
-    //     orderType: 'Limit',
-    //     side: 'Buy',
-    //     qty: '1',
-    //     orderIv: '6',
-    //     timeInForce: 'GTC',
-    //     orderLinkId: 'option-test-001',
-    //     mmp: false,
-    //     reduceOnly: false,
-    //   },
-    //   {
-    //     symbol: 'ETHUSDT',
-    //     orderType: 'Limit',
-    //     side: 'Sell',
-    //     qty: '2',
-    //     price: '700',
-    //     timeInForce: 'GTC',
-    //     orderLinkId: 'option-test-001',
-    //     mmp: false,
-    //     reduceOnly: false,
-    //   },
-    // ]);
+    const orders = await client.batchSubmitOrders('linear', [
+      {
+        symbol: 'DOGEUSDT',
+        orderType: 'Market',
+        side: 'Buy',
 
-    // console.log('orders: ', JSON.stringify(orders, null, 2));
+        qty: '8',
+        orderIv: '6',
+        timeInForce: 'GTC',
+        orderLinkId: 'option-test-001',
+        mmp: false,
+        reduceOnly: false,
+      },
+      {
+        symbol: 'DOGEUSDT',
+        orderType: 'Limit',
+        side: 'Sell',
+        qty: '1',
+        price: '1',
+        timeInForce: 'GTC',
+        orderLinkId: 'option-test-001',
+        mmp: false,
+        reduceOnly: false,
+      },
+    ]);
+
+    console.log('orders: ', JSON.stringify(orders, null, 2));
   } catch (e) {
     console.error('request failed: ', e);
   }

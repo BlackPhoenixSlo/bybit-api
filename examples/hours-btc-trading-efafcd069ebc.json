@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hours-btc-trading",
+  "private_key_id": "efafcd069ebc842b3d2390c8e35814e8e01274bc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC5tUOis3SmpQUZ\nHiif+1+1vVgrbpm58ShJ48hC9/yZZuDBj4pKAjalDQB5PMK3PTbZ3kXfqgyZD7gh\ngdOM5zEAN8CLU2xWud37y3fGWid6v1byJvOrQuc8qHy4dzAaghbk5EMdzbcngsgQ\n/knfh5620ARogDq/Y3i4Bgra0BQz0lgzpmgpLfFXRJPIE75peVt9i8ZrcAbzY7qL\n9hdpV/TL5ukWTa/jodEvt/zZCdCswWyBVYO0Jku2uOlaYJkhvfPfpQtLvRlQ3xjf\nOIdOI40rD6qXY4PfcKeoJe6j7evswf52DRysJJwhXRNP1QJJH4+ebhOrUqr0Rsb9\nqu6F8yUdAgMBAAECggEABKFSWGIlDGqc3+1ykdqQnlVkN2EAkDRFDuKRAapxL9ny\nzKCpkALSHfdfBabQLAVosrHqCBOTUNWlf6BfB+pTvG+na1HfJ6JmuHpwOA/TYCoZ\nHtx9ws1eOpLw2SCPoHmR3I8cZUfVwzRtjI7qhJo7CM/S7FAWJuNyBRSRfLcnactP\n1Auu/ZNh8sHrK84xhIopuOvgIrEz06lPsag1cxsAD88jMM3nTKmfmoOo5zt6lc+q\nFRmb8rJyEGxRzJiv/da5wliIlNm+H9ZIXIf8rMf3V/3alr8IYRYHov5PPRBEWtQq\n5Frc1hsDuEy51od0MSAJdphbQ1sA4WyK4oXRKN37uQKBgQD4wQQBm4UA/OR/noF1\n09l9ZbUJc7toqPWjbo2Goyewv4bBIMr8owRJWg4xWOw/mfw98s21E1Cmg1mTh6Y5\ny2UKwuAPYO6tn9ZPXn5zeQkfan/wBHMJLcCHbbHorVNayhH3vgO2gpcHHp4z9AIW\nmwy8VhTybEopIjVPH0Mi2MDWdwKBgQC/HhvQlC5/Nv0S88a3tLIAE9QQ2qsjAx+K\n5kaNHxtnBAp1DNb5CfMH+D8JZv0B/MwXkCVA8y6D2bJV/jTL+/4axAxH16RHuR4Q\nMMUrNnO2JAQzbgY8okUpyBeNHJh29Nuf3Gw6dMdDpj1w3aiBrgmlb4tJZii+ird9\np8YpQisCCwKBgQCdmSPhpNdKPe7Cj/izXunPEY32FBWrBEjEJ3mQ0HOH/n/wgcc4\n8kr38g9F4nGjBfsSgG8lhrw1EsjAuFNvEFbOz5JHDAGLjNWpaVOx8v/9oGq39Qmw\nygTNiIkLwiwqPBXQINmXWvs2boaKodBk5AzYka0pvcPqdZrSqxrMzAi4lwKBgQCE\nJkmNXCkahedQJ4gMlsFOFGfaj5kuSIaTAM9f3VaRUNX6QbqT0TFfHWRZGAFyUl69\nHErmMkDDotARbgkL017NGypyssVBYttKzq5HRwuTsivFdBqT6pBwZ48BX/h8qKsE\nSuH7OaxfNp/dXyeZI8I/xnVFd4JM3pYqKMx40uvyKQKBgQDN86IL/h0LX0Y868zY\n7FvsVbXKvMtJQiGFhxitfCoKa/SN66XE9+Zh46PtHpEnRG9sNBeRMSscGyVGUgxT\ne84j0P5weOzJP4X1JJ4R2YO1eSYRr2gVtRz/aI34TDio0gcZN9m4mFK1AIORVxxg\ncZ2L15GDFt0bSggZ1QWVeYRP8w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "googlesheetuser@hours-btc-trading.iam.gserviceaccount.com",
+  "client_id": "101160520984749427302",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/googlesheetuser%40hours-btc-trading.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -17,10 +17,13 @@ const logger = {
  * - Heartbeats/ping/pong/reconnects are all handled automatically.
  *    If a connection drops, the client will clean it up, respawn a fresh connection and resubscribe for you.
  */
+
+const key = "1K1DGfEqJg5nMZnrau";
+const secret = "iskpN4znl3s7BzfPcqkWhIniHfacDvkDGPbl";
 const wsClient = new WebsocketClient(
   {
-    // key: key,
-    // secret: secret,
+    key: key,
+    secret: secret,
     market: 'v5',
   },
   logger

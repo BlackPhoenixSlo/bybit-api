@@ -10,8 +10,12 @@ const logger = {
   silly: () => {},
 };
 
-const key = process.env.API_KEY;
-const secret = process.env.API_SECRET;
+// const key = process.env.API_KEY;
+// const secret = process.env.API_SECRET;
+
+const key = "1K1DGfEqJg5nMZnrau";
+const secret = "iskpN4znl3s7BzfPcqkWhIniHfacDvkDGPbl";
+
 
 /**
  * Prepare an instance of the WebSocket client. This client handles all aspects of connectivity for you:
